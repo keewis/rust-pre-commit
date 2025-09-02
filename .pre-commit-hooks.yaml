@@ -1,5 +1,6 @@
 - id: rust-fmt
   name: rust fmt
+  description: "rust formatter"
   entry: rustfmt
   language: rust
   types: [file]
@@ -7,6 +8,7 @@
   args: ["-l"]
 - id: cargo-clippy
   name: cargo clippy
+  description: "rust linter (clippy)"
   entry: cargo clippy
   language: rust
   types: [file]
