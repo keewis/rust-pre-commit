@@ -5,10 +5,3 @@
   types: [file]
   types_or: [rust]
   args: ["-l"]
-- id: cargo-clippy
-  name: cargo clippy
-  entry: cargo clippy
-  language: rust
-  types: [file]
-  types_or: [rust]
-  args: ["--offline", "--all-features"]
